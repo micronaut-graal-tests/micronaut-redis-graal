@@ -32,7 +32,7 @@ dependencies {
     implementation("io.micronaut:micronaut-runtime")
     implementation("io.micronaut:micronaut-http-server-netty")
     implementation("io.micronaut:micronaut-http-client")
-    implementation("io.micronaut.redis:micronaut-redis-lettuce")
+    implementation("io.micronaut.redis:micronaut-redis-lettuce:2.1.1.BUILD-SNAPSHOT")
 
     runtimeOnly("ch.qos.logback:logback-classic")
 
