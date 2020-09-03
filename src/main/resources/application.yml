@@ -1,4 +1,0 @@
-micronaut:
-  application:
-    name: redis
-redis.uri: redis://localhost
