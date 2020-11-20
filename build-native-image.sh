@@ -1,2 +1,2 @@
-./gradlew assemble
-native-image --no-fallback --class-path build/libs/micronaut-redis-graal-*-all.jar
+./gradlew nativeImage
+cp build/native-image/redis .
