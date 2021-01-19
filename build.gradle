@@ -29,7 +29,6 @@ dependencies {
     runtimeOnly("ch.qos.logback:logback-classic")
 }
 
-
 application {
     mainClass.set("example.micronaut.Application")
 }
@@ -41,4 +40,5 @@ java {
 
 nativeImage {
     imageName('redis')
+    args = ['--report-unsupported-elements-at-runtime']
 }
