@@ -40,5 +40,5 @@ java {
 
 nativeImage {
     imageName('redis')
-    args = ['--report-unsupported-elements-at-runtime']
+    args = ['--report-unsupported-elements-at-runtime', '-H:+StaticExecutableWithDynamicLibC']
 }
