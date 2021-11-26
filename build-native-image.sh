@@ -1,2 +1,4 @@
-./gradlew nativeImage
-cp build/native-image/redis .
+#!/bin/bash
+
+./gradlew nativeCompile
+cp build/native/nativeCompile/redis .
